@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_rsa/simple_rsa.dart' as rsa;
+//import 'package:simple_rsa/simple_rsa.dart' as rsa;
 
 void main() {
   runApp(MyApp());
@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
             "8rBwv3++eAZxwZoLNmHx9wF92XKG+26I+gVGKKagyToU/xEjIqlpuZ90zesYdjV+" +
             "u0iQjowgbzt3ASOnvJSpJu/oJ6XrWR3egPoTSx+HyX1dKv9+q7uLl6pXqGVVNs+/" +
             "AgMBAAE=";
-    final tmp = await rsa.encryptString("messafer",PUBLIC_KEY);
-    print(tmp);
+//    final tmp = await rsa.encryptString("messafer",PUBLIC_KEY);
+//    print(tmp);
 
   }
   // This widget is the root of your application.
