@@ -84,11 +84,9 @@ packages:
   simple_rsa:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "9ee19f03412a401a19be401f9ed0d4318afda81f"
-      url: "https://github.com/YoussefElsaygh/simple_rsa"
-    source: git
+      name: simple_rsa
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.5"
   sky_engine:
     dependency: transitive
