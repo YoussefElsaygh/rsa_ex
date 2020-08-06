@@ -23,7 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  simple_rsa: ^0.0.5
+  simple_rsa:
+    git:
+      url: https://github.com/YoussefElsaygh/simple_rsa
 
 
   # The following adds the Cupertino Icons font to your application.
